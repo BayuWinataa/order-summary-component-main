@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 350px;
+	background-color: #b93b3b;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.content {
+	padding: 20px;
+	background-color: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.title {
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 24px;
+	margin-bottom: 14px;
+	color: hsl(223, 47%, 23%);
+}
+
+.title p {
+	font-size: 14px;
+	font-weight: 500;
+	color: hsl(224, 23%, 55%);
+}
+
+.detail {
+	width: 100%;
+	background-color: hsl(180, 4%, 82%);
+	padding: 16px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.detail a {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.detail a:hover {
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);
+}
+
+.price {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.price img {
+	width: 40px;
+	height: 40px;
+}
+
+.price-detail {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 5px;
+}
+
+.price-detail h2 {
+	font-size: 14px;
+	color: hsl(223, 47%, 23%);
+}
+
+.price-detail p {
+	font-size: 14px;
+	color: hsl(224, 23%, 55%);
+}
+
+button {
+	border: none;
+	width: 100%;
+	padding: 14px;
+	border-radius: 10px;
+	color: hsl(225, 100%, 94%);
+	font-weight: bold;
+	background-color: hsl(245, 75%, 52%);
+	box-shadow: 0 10px 10px hsl(0, 0%, 62%);
+}
+
+button:hover {
+	background-color: hsl(224, 23%, 55%);
+}
+
+.content p:nth-child(4) {
+	color: #727171;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.content p:nth-child(4):hover {
+	color: #4877eb;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
